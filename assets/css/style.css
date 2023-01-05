@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color:yellow;
+}
+h1{
+    text-align: center;
+    color:navy blue;
+    background-color:goldenrod; 
+
+    padding: 15px;
+}
+nav{
+    background-color: rgb(220, 245, 77);
+    display: grid;
+    place-items: center;
+    }
+nav ul{
+    list-style-type: none;
+    padding: 10px;
+}
+nav ul a{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color:black;
+    transition: 0.2s ease-in;
+    font-size: 25px;
+    
+}
+
+nav ul a:hover{
+    background-color: green;
+    color: yellow;
+    
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 40px 20px;
+    grid-column-gap:25px;
+    
+}
+.item img{
+    width: 100%;
+    height: 350px;
+object-fit: cover;
+cursor: pointer;
+transition: 0.2s ease;
+padding-top: 15px;
+
+}
+.item img:hover{
+    transform: scale(1.07);
+}
+.item h4{
+    padding: 5px;
+    font-size: 25px;
+    color: green;
+    text-align: center;
+    
+}
+.item button{
+    font-size: 25px;
+    color:white;
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    background-color:orangered;
+    border-radius: 4px;
+    display: block;
+    margin:0 auto ;
+transition: 0.2s all;
+    
+
+    
+
+}
+.item button:hover{
+    transform: scale(1.05 );
+
+}
+
